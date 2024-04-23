@@ -48,8 +48,8 @@ header {
 
 #about img {
     flex: 1;
-    width: auto;
-    height: auto;
+    width: 100vh;
+    height: 100vh;
 }
 
 #about div {
