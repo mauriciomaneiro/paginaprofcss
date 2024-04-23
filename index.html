@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"/>
+    <title>JezArt</title>
+</head>
+<body>
+    <header>
+        <div>            
+            <nav class="navbar bg-body-tertiary fixed-top">
+              <div class="container-fluid">
+                <div>
+                  <a href="https://www.facebook.com"><img style="width: 30px; height: 30px;" src="img/facebook.png" alt="Facebook"></a>
+                  <a href="https://www.instagram.com"><img style="width: 30px; height: 30px;" src="img/instagram.png" alt="Instagram"></a>
+                  <a href="https://www.linkedin.com"><img style="width: 30px; height: 30px;" src="img/Linkedin.png" alt="Linkedin"></a>
+                  <a href="https://www.pinterest.com"><img style="width: 30px; height: 30px;" src="img/pinterest.png" alt="Pinterest"></a>
+                </div>
+                <div id="logoimg">
+                  <img src="img/logo.png" alt="Logo">
+                </div>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasNavbar"
+                  aria-controls="offcanvasNavbar"
+                  aria-label="Toggle navigation"
+                >
+                  Menu
+                </button>        
+                <div
+                  class="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasNavbar"
+                  aria-labelledby="offcanvasNavbarLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">JezArt</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio"
+                          >Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Mi</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#mision">Misión</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#talleres">Talleres</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                      </li>                    
+                       </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            
+        </div>
+    </header>
+    <section id="banner">
+        <a href="#portfolio">
+            <img src="img/banner.png" alt="banner">
+        </a>
+    </section>
+    <section id="about">
+        <img src="img/perfil.png" alt="jezabel">
+        <div>
+            <h1>Sobre mi:</h1>
+            <p>¡Hola! Soy Jeza, una ilustradora profesional, digital y editorial. Mi estilo es una mezcla de chibi, anime y colores vivos. Me apasionan los dibujos que expresan ternura y calidez, y utilizo mis ilustraciones tanto en cuentos infantiles como en colaboraciones para videojuegos. La fusión de lo medieval con lo moderno es algo que me inspira e incorporo en mi estilo de diseño. Creo que todos pueden aprender a dibujar y encontrar su propia personalidad artística así como yo lo hice. Por eso, imparto talleres y guías para niños y jóvenes adultos que recién comienzan en el mundo del dibujo. Ayudarlos a descubrir su propia identidad es mi objetivo. Mi sueño es tener mi estudio de ilustración con una escuela incorporada. Quiero crear un espacio donde cualquiera pueda aprender a expresarse mediante el arte. Acompáñame a ver mi mundo y a conectar desde Argentina hasta donde estés mientras conoces mi trabajo. ¡Gracias por visitar mi sitio!</p>
+        </div>
+    </section>
+    <div id="mision" class="grid-container">
+        <div class="grid-item">
+            <h2>Misión:</h2>
+            <p>Mi misión es fomentar la creatividad y la expresión personal a través del arte. Me dedico a inspirar y educar a artistas emergentes de todas las edades, proporcionando un espacio acogedor donde puedan aprender, experimentar y desarrollar su propio estilo artístico. Mi compromiso es con el arte que toca el corazón, que trae calidez y alegría a través de colores vivos y diseños que despiertan la imaginación.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Visión:</h2>
+            <p>Mi visión es ser un estudio de ilustración reconocido y una escuela de arte integral que sea un referente en la comunidad artística, tanto local como internacionalmente. Aspiro a ser un puente entre lo clásico y lo contemporáneo, donde la tradición y la innovación se encuentren para crear una experiencia de aprendizaje única. Sueño con un futuro donde Jezart sea sinónimo de excelencia en el arte digital y editorial, y donde mis estudiantes se conviertan en los artistas influyentes del mañana.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Valores:</h2>
+            <p>               
+                <em style="text-decoration: underline;">Pasión:</em> Creo en el poder del arte para mover el alma y me apasiona cada proyecto y enseñanza que emprendo. Innovación: Estoy comprometida con la exploración de nuevas técnicas y estilos, manteniéndome siempre a la vanguardia del arte digital.</li>
+                <em style="text-decoration: underline;">Calidez:</em> Mi enfoque es crear un ambiente de apoyo y amistad, donde cada estudiante se sienta valorado y motivado.</li>
+                <em style="text-decoration: underline;">Excelencia:</em> Me esfuerzo por la calidad en cada ilustración y clase que ofrezco, asegurando que mis estudiantes reciban la mejor educación artística posible.</li>
+                <em style="text-decoration: underline;">Comunidad:</em> Valoro la colaboración y el intercambio de ideas, construyendo una comunidad artística sólida y diversa.</li>
+                </ul>
+
+            </p>
+        </div>
+    </div>
+    <div class="separador">
+        <img src="img/portfolio.png" alt="Banner portfolio">
+    </div>    
+      <style>
+        /* Estilo por defecto */
+        .grid-container2 {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          width: 90%; 
+          margin: auto; 
+          grid-gap: 15px;
+        }
+        
+        .grid-item2 {
+          width: 100%;
+          height: 0;
+          padding-bottom: 100%;
+          position: relative;
+        }
+        
+        .grid-item2 img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 25px;
+        }
+        
+        .double-size {
+          grid-column: span 1;
+          grid-row: span 2; /* Ocupa 2 filas */
+          width: 100%;
+          padding-bottom: 100%;
+          position: relative;   
+        }
+        .double-size img{
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 25px;
+        }
+        
+        .full-width {
+          grid-column-start: 2; /* Comienza en la columna 2 */
+          grid-column-end: span 2;
+          grid-row: span 1; 
+          padding-bottom: 50%;
+        }
+        /* Estilo responsive */
+        @media screen and (max-width: 550px) {
+          .grid-container2 {
+            grid-template-columns: 1fr;
+          }
+        
+          .double-size {
+            grid-column: span 1;
+            grid-row: span 1; 
+          }
+        
+          .full-width {
+            grid-column-start: 1; /* Ocupa 1 columna en pantallas pequeñas */
+            grid-column-end: span 1;
+            grid-row: span 1; 
+            padding-bottom: 100%;
+          }
+        }
+      </style>    
+    <div class="grid-container2" id="portfolio">
+      <div class="double-size">
+        <img src="img/portfolio1.png" alt="Imagen Doble">
+      </div>
+      <div class="grid-item2">
+        <img src="img/portfolio2.png" alt="Imagen Normal 1">
+      </div>
+      <div class="grid-item2">
+        <img src="img/portfolio3.png" alt="Imagen Normal 2">
+      </div>
+      <div class="grid-item2 full-width">
+        <img src="img/portfolio4.jpg" alt="Imagen de Ancho Completo">
+      </div>  
+    </div>
+    <div id="servicios">
+      <div id="servicio1" class="card" style="width: 18rem;">
+        <img src="img/1.png"  style="width: 100%; height: 45%;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ilustración en formato digital:</h5>
+          <p class="card-text">Pedí tu ilustración personalizada en formato digital, puede ser tu personaje favorito, una caricatura tuya o de algún ser querido o tu mascota. 
+            ¡¡Tu imaginación es él limite!!</p>
+          <a href="https://wa.link/1v9g5g" class="btn btn-primary" style=" background-color:#9891BF; position: absolute; bottom: 0; right: 0; margin:10px">Contactame</a>
+        </div>
+      </div>
+      <div id="servicio2" class="card" style="width: 18rem;">
+        <img src="img/2.png" style="width: 100%; height: 45%;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ilustración en formato fisico:</h5>
+          <p class="card-text"> Además de la ilustración digital podes llevarte tu ilustración impresa en papel de alta calidad y enmarcada lista para colgar en tu pared. 
+          </p>
+          <a href=https://wa.link/1v9g5g class="btn btn-primary" style=" background-color:#9891BF; position: absolute; bottom: 0; right: 0; margin:10px">Contactame</a>
+        </div>
+      </div>
+      <div id="servicio3" class="card" style="width: 18rem;">
+        <img src="img/3.jpeg" style="width: 100%; height: 45%;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Otros pedido:</h5>
+          <p class="card-text"> ¿Tenes algun otro tipo de pedido? ¿Alguna idea que quieras plasmar en papel? ¡¡Contactate y charlemos sobre tus necesidades artisticas!!
+          </p>
+          <a href=https://wa.link/1v9g5g class="btn btn-primary" style=" background-color:#9891BF; position: absolute; bottom: 0; right: 0; margin:10px">Contactame</a>
+        </div>
+      </div>
+    </div>
+    <div class="separador">
+        <img src="img/baner-talleres.png" alt="Banner talleres">
+    </div>
+    <div id="talleres">
+        <img src="img/talleres.jpg" alt="talleres" style="margin-left: 5px">
+        <div>
+            <h1 style="color: #9891BF">Taller de arte:</h1>
+            <p>En este taller, te invito a unirte a mí en un viaje de descubrimiento y creatividad. Como ilustradora profesional, he tenido la oportunidad de explorar muchos estilos y técnicas diferentes, y estoy emocionada de compartir lo que aprendí con vos. No importa si estás recién comenzando tu viaje artístico o si ya tenés experiencia, hay un lugar para vos. Juntos, vamos a explorar desde los conceptos básicos de la ilustración, como el dibujo de formas y el uso del color, hasta técnicas más avanzadas, como la creación de texturas y la representación de la luz y la sombra. Además de las técnicas de ilustración, también te ayudaré a desarrollar tu propio estilo único. Creo firmemente que cada artista tiene algo único que aportar, y una de las partes más gratificantes de la enseñanza para mí es ayudar a los estudiantes a descubrir y desarrollar su propia voz artística. Pero este taller no es solo sobre aprender técnicas y desarrollar habilidades. También es sobre la diversión y la alegría de crear. Ya sea que estés dibujando un retrato detallado o simplemente garabateando por diversión, hay una gran satisfacción en crear algo que es verdaderamente tuyo. Así que, si estás listo para sumergirte en el mundo del arte y unirte a mi taller, por favor contactame. No puedo esperar para ver lo que vamos a crear juntos. ¡Vamos a hacer algo increíble!</p>
+        </div>
+    </div>
+    <div id="cursos">
+      <div style="margin: 10px;">
+        <h1 style="color: #9891BF;">Cursos cortos:</h1>
+        <ul>
+          <li>
+            <span style="font-size: 16px;">
+              Introducción a la Ilustración Digital
+            </span>
+            <span style="font-size: 16px;">
+              : Aprendé los fundamentos de la ilustración digital y dominá los
+              programas que usan los profesionales.
+            </span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <spans style="font-size: 16px;">
+              Diseño de rostros
+            </span>
+            <span style="font-size: 16px;">
+              : Aprende a capturar la esencia y la emoción de los rostros en tus
+              ilustraciones. ¡Dale vida a tus personajes con rostros realistas y
+              expresivos!.
+            </span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <span style="font-size: 16px;">
+              Diseño de mundos y personajes kawaii</span>
+            <span style="font-size: 16px;">
+              : Aprenderás a encontrar inspiración en tu entorno para crear personajes
+              kawaii en mundos mágicos. Libera tu imaginación y da vida a escenas
+              llenas de ternura y fantasía.
+            </span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <span style="font-size: 16px;">
+            Ilustración de historias infantiles
+            </span>
+            <span style="font-size: 16px;">
+            : Aprenderás todo el proceso de creación de tu propia historia ilustrada, adaptada a partir de un cuento
+              clásico.
+            </span>
+          </li>
+        </ul>
+      </div>
+      <img src="img/cursos.png" alt="cursos" style="margin-right: 5px;">  
+    </div>
+    <div id="testimonios">
+      <style>
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .flex-item {
+            flex: 1;
+            margin: 10px;
+            text-align: center;
+        }
+    
+        .flex-item img {
+            width: 30vh;
+            height: 30vh;
+        }
+        @media (max-width: 550px) {
+        .flex-container {
+            flex-direction: column;
+        }
+
+        .flex-item img {
+            width: 30vh;
+            height: 30vh;
+        }
+    }
+      </style>
+    
+    <div class="flex-container">
+        <div class="flex-item">
+            <img src="img/testimonio1.png" alt="testimonio1">
+            <p>Compré una ilustración impresa para el cumpleaños de mi hija, La calidad de la impresión es excelente, con colores vibrantes que realmente hacen que las imágenes cobren vida. Mi hija la adora y la colgamos en su habitación. Ella se ve a sí misma en estos personajes y se siente inspirada por sus aventuras. Como madre, no puedo pedir más. Recomiendo encarecidamente las ilustraciones de esta artista a cualquier padre que quiera alimentar la imaginación de sus hijos y fomentar un amor por la lectura.</p>
+        </div>
+        <div class="flex-item">
+            <img src="img/testimonio2.png" alt="testimonio2">
+            <p>Siempre he querido aprender a dibujar, pero nunca supe por dónde empezar. Una amiga me sugirió este taller y fue la introducción perfecta al mundo de la ilustración. La instructora es muy paciente y explica las cosas de una manera que es fácil de entender, incluso para un principiante total como yo. Me sorprendió lo mucho que pude aprender en tan poco tiempo, e incluso descubrí una creatividad que no sabía que tenia. Estoy emocionado de seguir practicando y mejorando. ¡No dudes en inscribirte tal como hice yo!</p>
+        </div>
+        <div class="flex-item">
+            <img src="img/testimonio3.png" alt="testimonio3">
+            <p>A mis 80 años, nunca pensé que compraría algo por Internet, a pesar de no entender mucho de tecnología, el proceso de pedido y compra fue muy fácil. Me impresionó lo sencillo que fue. Cuando la ilustración llegó, quedé asombrado. La imagen de mi hija con su perrito era perfecta, capturando su espíritu y la alegría que comparten. Estoy muy agradecido por la habilidad de esta artista para capturar momentos tan preciosos. Recomiendo sus ilustraciones a cualquiera que busque un regalo único y personal.</p>
+        </div>
+        <div class="flex-item">
+            <img src="img/testimonio4.png" alt="testimonio4">
+            <p>Buscaba nuevas formas de expandir mis habilidades y nuevos horizontes. Este taller fue lo que buscaba. La instructora es increíblemente talentosa y su pasión por la ilustración es contagiosa. Aprendí nuevas técnicas y enfoques que han enriquecido mi trabajo y me han dado una nueva perspectiva. Además, el ambiente del taller es muy acogedor y colaborativo, lo que hizo que la experiencia fuera aún más gratificante. Recomiendo este taller a cualquier ilustrador que busque crecer y aprender en un ambiente de apoyo</p>
+        </div>
+    </div>    
+    </div>
+    <div class="separador">
+      <img src="img/contacto.png" alt="Banner contacto">    
+    </div>
+
+    <style>
+      #contacto {
+          display: flex;
+          justify-content: center;
+          flex-direction: row;
+          gap: 20px;
+      }
+      #mapa {
+          width: 500px;
+          margin-left: 50px;
+      }
+      #info-contacto {
+          font-weight: bold;
+          font-size: 26px;
+      }
+      #contacto {
+          display: flex;
+          flex-wrap: wrap;
+      }
+      #mapa, #info-contacto {
+          flex: 1;
+      }
+      #info-contacto {
+      width: 300px;
+      padding: 20px;     
+      border-radius: 5px;
+      }
+
+    #info-contacto ul {
+    list-style-type: none;
+    padding: 0;
+    }
+
+    #info-contacto ul li {
+    margin-bottom: 10px;
+    } 
+
+    #info-contacto ul li a {
+    color: #3498db;
+    text-decoration: none;
+    }
+
+     @media (max-width: 550px) {
+      #contacto {
+        flex-direction: column;
+        align-items: center;
+      }
+      #mapa, #info-contacto {
+        flex: none;
+        width: 100%;
+        margin: 20px;
+      }
+     }
+  </style>
+  
+  <section id="contacto">      
+    <div id="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5312.4589898478!2d-58.45557399157665!3d-34.56131386551741!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb50011b9035f%3A0x4779d791fa27499!2scabildo%20y%20juramento!5e0!3m2!1ses-419!2sar!4v1712079717869!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div id="info-contacto">
+      <ul>
+        <li><img src="img/icono2.png" alt="icono mail ">Email: <a href="mailto:jezabel.art@gmail.com">jezabel.art@gmail.com</a></li>
+        <li><img src="img/icono1.png" alt="icono whatsapp ">Whatsapp: <a href="https://wa.link/1v9g5g">+54 11 2233-4421</a></li>
+        <li><img src="img/icono3.png" alt="icono maps">Visita nuestro estudio en: <a href="https://maps.app.goo.gl/uinsNFW9Gcxz96317">Calle Falsa 123. Belgrano, CABA</a></li>
+      </ul>
+    </div>      
+  </section>
+<br>
+<footer style="margin: 20px;">
+  by Mauricio Maneiro. &#169; Todos los derechos reservados 2024.
+  <a href="#inicio" style="align-self: right;">Ir Arriba</a>
+</footer>
+</body>
+</html>
